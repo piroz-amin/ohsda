@@ -1,0 +1,25 @@
+.contact{
+    width: 80vw;
+
+padding: 2rem;
+}
+.phone{
+
+    margin: 1rem;
+
+}
+.phone .call-icon{
+    color: lightskyblue;
+    float: left;
+    margin: auto;
+    display: block;
+    padding: 13px;
+    text-align: center;
+}
+input{
+    margin: 3px;
+    padding: 2px;
+}
+form{
+    text-align: left;
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+.footer{
+    background-color:#7c7979;
+    padding: 1rem;
+    color: white;
+    font-family: barlow;
+    text-align: center;
+    font-size: 12px;
+}
+#copyright-icon{
+    margin: 4px;
+}
+
