@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+build.rar
+build.zip
+ohsda.zip
+
+.vscode
+
+
 # testing
 /coverage
 
