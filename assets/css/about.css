@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+.container{
+    border:1px solid gray;
+    overflow: scroll;
+}
+.row{
+    margin: auto;
+border: 1px solid red;
+}
+.title p{
+    font-family: barlow;
+    font-size: 24px;
+    color: gray;
+    border-bottom: 2px solid rgb(199, 196, 196);
+}
+
+.row h3,h4,h2,p{
+    margin: auto;
+    text-align: center;
+    font-family: barlow;
+
+}
+.row p{
+    text-align: left;
+}
+a {
+    text-decoration: none;
+  }
+.col-md-5{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+
+}
+.info p{
+    font-family: barlow;
+    margin: 20px;
+}
+.image img{
+    height: 450px;
+    width: 400px;
+    border-radius: 5%;
+    overflow: hidden;
+
+}
+.info .download-btn{
+    margin: 20px;
+color:white;
+margin:20px;
+
+}

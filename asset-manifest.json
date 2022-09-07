@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/piroz-amin/ohsda.git/static/css/main.b722454f.chunk.css",
+    "main.js": "/piroz-amin/ohsda.git/static/js/main.41e7df69.chunk.js",
+    "main.js.map": "/piroz-amin/ohsda.git/static/js/main.41e7df69.chunk.js.map",
+    "runtime-main.js": "/piroz-amin/ohsda.git/static/js/runtime-main.9d0f8724.js",
+    "runtime-main.js.map": "/piroz-amin/ohsda.git/static/js/runtime-main.9d0f8724.js.map",
+    "static/css/2.709e72d0.chunk.css": "/piroz-amin/ohsda.git/static/css/2.709e72d0.chunk.css",
+    "static/js/2.6d887c06.chunk.js": "/piroz-amin/ohsda.git/static/js/2.6d887c06.chunk.js",
+    "static/js/2.6d887c06.chunk.js.map": "/piroz-amin/ohsda.git/static/js/2.6d887c06.chunk.js.map",
+    "index.html": "/piroz-amin/ohsda.git/index.html",
+    "precache-manifest.ff2135495e2dfff9d83d3a925a16a26d.js": "/piroz-amin/ohsda.git/precache-manifest.ff2135495e2dfff9d83d3a925a16a26d.js",
+    "service-worker.js": "/piroz-amin/ohsda.git/service-worker.js",
+    "static/css/2.709e72d0.chunk.css.map": "/piroz-amin/ohsda.git/static/css/2.709e72d0.chunk.css.map",
+    "static/css/main.b722454f.chunk.css.map": "/piroz-amin/ohsda.git/static/css/main.b722454f.chunk.css.map",
+    "static/js/2.6d887c06.chunk.js.LICENSE.txt": "/piroz-amin/ohsda.git/static/js/2.6d887c06.chunk.js.LICENSE.txt",
+    "static/media/Logo.png": "/piroz-amin/ohsda.git/static/media/Logo.80bb4d09.png",
+    "static/media/Moto.svg": "/piroz-amin/ohsda.git/static/media/Moto.5939ff1c.svg",
+    "static/media/Oldman.webp": "/piroz-amin/ohsda.git/static/media/Oldman.1b604e53.webp",
+    "static/media/afghanKid.jpg": "/piroz-amin/ohsda.git/static/media/afghanKid.61bfebf0.jpg",
+    "static/media/fightforfood.jpeg": "/piroz-amin/ohsda.git/static/media/fightforfood.70db76e8.jpeg",
+    "static/media/girl.jpg": "/piroz-amin/ohsda.git/static/media/girl.5701f159.jpg",
+    "static/media/refugee.webp": "/piroz-amin/ohsda.git/static/media/refugee.d6311da6.webp",
+    "static/media/service1.jfif": "/piroz-amin/ohsda.git/static/media/service1.3b866c4c.jfif",
+    "static/media/service2.jfif": "/piroz-amin/ohsda.git/static/media/service2.13a99e0f.jfif",
+    "static/media/service3.jfif": "/piroz-amin/ohsda.git/static/media/service3.ddf89216.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d0f8724.js",
+    "static/css/2.709e72d0.chunk.css",
+    "static/js/2.6d887c06.chunk.js",
+    "static/css/main.b722454f.chunk.css",
+    "static/js/main.41e7df69.chunk.js"
+  ]
+}
