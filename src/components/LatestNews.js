@@ -14,18 +14,10 @@ const Services = () => {
         </div>
         {sd.map((serviceData) => {
           const { id, title, info, image, action } = serviceData;
-          return (
-            <Card
-              key={id}
-              title={title}
-              info={info}
-              image={image}
-              action={action}
-            />
-          );
+          return <Card key={id} info={info} image={image} action={action} />;
         })}
 
-        <button id="seeallnews">
+        <button id="seeallnews" href="#helo.html">
           <p>See All news</p>
         </button>
       </div>
