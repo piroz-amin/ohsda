@@ -2,8 +2,8 @@ import React from "react";
 import { FaBold } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div className="row slideanim" id="contact">
-      <div className="container bg-grey" style={{ backgroundColor: "#be2126" }}>
+    <div className="row slideanim mt-5" id="contact">
+      <div className="container bg-grey p-5" style={{ backgroundColor: "#be2126" }}>
         <div class="row">
           <div class="col-sm-4">
             <span

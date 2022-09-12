@@ -1,23 +1,13 @@
 import React from "react";
 import {
-  FaBinoculars,
-  FaBorderAll,
-  FaBorderNone,
-  FaBorderStyle,
-  FaBuilding,
-  FaPeopleCarry,
-  FaPhoenixSquadron,
-  FaSpaceShuttle,
-  FaSquarespace,
   FaSuperpowers,
-  FaUserClock,
   FaUsers,
   FaWarehouse,
 } from "react-icons/fa";
 
 const Stats = () => {
   return (
-    <div className="row slideanim">
+    <div className="row slideanim container m-auto my-5">
       <div className="container bg-grey" style={{ backgroundColor: "#be2126" }}>
         <div class="row  " id="stats">
           <div class="col-sm-4">
@@ -28,7 +18,7 @@ const Stats = () => {
             </div>
           </div>
           <div class="col-sm-4">
-            <h1>
+            <h1 className=""> 
               <FaUsers id="statsIcon" />
               10+ Humanitarian Experts
             </h1>

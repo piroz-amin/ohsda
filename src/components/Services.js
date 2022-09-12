@@ -6,13 +6,13 @@ import Health from "../assets/images/Health.png";
 const Services = () => {
   return (
     <div className="container" id="myServices">
-      <div className="row d-flex justify-content-center">
+      <div className="row justify-content-center">
         <div className="title">
           <p>
             <strong>Our Services</strong>
           </p>
         </div>
-        <ul className=" col-md-4" id="serviceCard">
+        <ul className="col-md-4" id="serviceCard">
           <div class="card border-gray">
             <div class="card-body row">
               <img className="" src={Health} id="img" />
@@ -61,9 +61,10 @@ const Services = () => {
         </ul>
       </div>
 
+    {/* What we do */}
       <div className="row d-flex justify-content-center">
         <ul className="col-md-4 col-lg-4" id="#serviceCardinfo">
-          <p>Take a look inside </p>
+          {/* <p>Take a look inside </p> */}
           <div className="title">
             <p>What we do</p>
           </div>

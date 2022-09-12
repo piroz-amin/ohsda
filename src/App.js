@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Post from "./pages/Post";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/post/:slug" element={<Post />} />
         </Routes>
       </BrowserRouter>
     </>

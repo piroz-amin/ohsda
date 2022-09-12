@@ -6,20 +6,20 @@ import sd from "./NewsData";
 const Services = () => {
   return (
     <div className="container" id="mylatestNews">
-      <div className="row">
-        <div className="title">
+      <div className="row gap-4 mb-5">
+        <div className="title row justify-content-between">
           <p>
             <strong>Latest News</strong>
           </p>
+          
         </div>
+   
         {sd.map((serviceData) => {
-          const { id, title, info, image, action } = serviceData;
-          return <Card key={id} info={info} image={image} action={action} />;
+          const { id, title, info, image, action ,slug} = serviceData;
+          return <Card key={id} info={info} image={image} action={action} slug={slug}/>;
         })}
 
-        <button id="seeallnews" href="#helo.html">
-          <p>See All news</p>
-        </button>
+        
       </div>
     </div>
   );

@@ -18,9 +18,9 @@ const Footer = () => {
         <ul className="col-sm-2" id="footerInfo">
           <li>
             <strong>Who we are</strong>
-            <li>
+            <ul>
               <br></br>
-            </li>
+            </ul>
           </li>
           <li>
             <a href="#">Home</a>
