@@ -3,6 +3,34 @@ import React from "react";
 import Empowerment from "../assets/images/empowerment.png";
 import Social from "../assets/images/SocialServices.png";
 import Health from "../assets/images/Health.png";
+import {
+  FaBell,
+  FaChalkboardTeacher,
+  FaChevronCircleUp,
+  FaChild,
+  FaFistRaised,
+  FaHandHoldingHeart,
+  FaHandHoldingUsd,
+  FaHandPeace,
+  FaHandPointUp,
+  FaHandshake,
+  FaHandsHelping,
+  FaHeartbeat,
+  FaHighlighter,
+  FaHireAHelper,
+  FaKhanda,
+  FaNetworkWired,
+  FaOldRepublic,
+  FaPrayingHands,
+  FaRegHandshake,
+  FaResolving,
+  FaSeedling,
+  FaShare,
+  FaShekelSign,
+  FaStackExchange,
+  FaSuperpowers,
+  FaTrain,
+} from "react-icons/fa";
 const Services = () => {
   return (
     <div className="container" id="myServices">
@@ -12,53 +40,38 @@ const Services = () => {
             <strong>Our Services</strong>
           </p>
         </div>
-        <ul className=" col-md-4" id="serviceCard">
-          <div class="card border-gray">
-            <div class="card-body row">
-              <img className="" src={Health} id="img" />
-            </div>
-            <p className="d-flex justify-content-center">
-              <strong>Health Services</strong>
-            </p>
-            <p className="d-flex justify-content-center">
-              <a href="#">View more </a>
-            </p>
-          </div>
-        </ul>
-        <ul className="col-md-4 " id="serviceCard">
-          <div class="card border-gray">
-            <div class="card-body row">
-              <img
-                className="d-flex justify-content-center"
-                src={Social}
-                id="img"
-              />
-            </div>
-            <p className="d-flex justify-content-center">
-              <strong>Social Services</strong>
-            </p>
-            <p className="d-flex justify-content-center">
-              <a href="#">View more </a>
-            </p>
-          </div>
-        </ul>
-        <ul className="col-md-4 " id="serviceCard">
-          <div class="card border-gray">
-            <div class="card-body row">
-              <img
-                className="d-flex justify-content-center"
-                src={Empowerment}
-                id="img"
-              />
-            </div>
-            <p className="d-flex justify-content-center">
-              <strong>Empowerment</strong>
-            </p>
-            <p className="d-flex justify-content-center">
-              <a href="#">View more </a>
-            </p>
-          </div>
-        </ul>
+        <div className="card col-sm-3" id="Servicecard">
+          <FaHandHoldingHeart
+            className="card-img-top"
+            style={{ color: "#be2126", fontSize: "150px" }}
+          />
+
+          <p className="card-text">
+            <strong>Health</strong>
+          </p>
+        </div>
+
+        <div className="card col-sm-3" id="Servicecard">
+          <FaBell
+            className="card-img-top"
+            style={{ color: "#be2126", fontSize: "100px" }}
+          />
+
+          <p className="card-text">
+            <strong>Emergency Response</strong>
+          </p>
+        </div>
+
+        <div className="card col-sm-3" id="Servicecard">
+          <FaHandshake
+            className="card-img-top"
+            style={{ color: "#be2126", fontSize: "200px" }}
+          />
+
+          <p className="card-text">
+            <strong>Empowerment</strong>
+          </p>
+        </div>
       </div>
 
       <div className="row d-flex justify-content-center">
@@ -109,18 +122,14 @@ const Services = () => {
             <a class="list-group-item">
               <p>Orphanage</p>
             </a>
-            <a class="list-group-item">
-              <p></p>
-            </a>
+
             <a class="list-group-item">
               <p>
                 Supporting Disable People With Professions Tailored to Their
                 Abilities
               </p>
             </a>
-            <a class="list-group-item">
-              <p></p>
-            </a>
+
             <a class="list-group-item">
               <p>Supporting Widows, and Women in Need</p>
             </a>
@@ -130,9 +139,7 @@ const Services = () => {
             <a class="list-group-item">
               <p>Wells, Small Water Disturbution Networks</p>
             </a>
-            <a class="list-group-item">
-              <p></p>
-            </a>
+
             <a class="list-group-item">
               <p>Humanitarian Emergency</p>
             </a>

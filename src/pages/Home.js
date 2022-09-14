@@ -3,11 +3,11 @@ import About from "../components/About";
 import Navbar from "../components/Navbar";
 import HomeComponent from "../components/Home";
 import LatestNews from "../components/LatestNews";
-import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Services from "../components/Services";
 import Stats from "../components/Stats";
+import work from "../components/work";
 function Home() {
   return (
     <>
@@ -17,7 +17,7 @@ function Home() {
       <Stats />
       <Services />
       <LatestNews />
-
+      <work />
       <Contact />
       <Footer />
     </>

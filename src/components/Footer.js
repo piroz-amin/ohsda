@@ -10,10 +10,10 @@ import {
 import Moto from "../assets/images/Moto.svg";
 const Footer = () => {
   return (
-    <div className="row slideanim">
+    <div className="row slideanim" style={{ backgroundColor: " #f5f5f5" }}>
       <div>
         <ul className="col-sm-4" id="footerInfo">
-          <img src={Moto} />
+          <img src={Moto} style={{ width: "300px" }} />
         </ul>
         <ul className="col-sm-2" id="footerInfo">
           <li>
@@ -61,17 +61,14 @@ const Footer = () => {
             </p>
           </li>
           <li>
-            <a href="#fb.com">
+            <a href="https://www.facebook.com/OHSDA-112179551603601">
               <FaFacebook />
             </a>
             <a href="https://twitter.com/ohsdafg">
               <FaTwitter />
             </a>
-            <a href="#fb.com">
+            <a href="https://www.youtube.com/channel/UC_kb9_XAMyc7KgCDVS0XFpA">
               <FaYoutube />
-            </a>
-            <a href="#fb.com">
-              <FaLinkedin />
             </a>
           </li>
         </ul>

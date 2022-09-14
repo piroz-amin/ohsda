@@ -1,12 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { links, social } from "./data";
-// import { links, social } from "../components/data";
-import Logo from "./Logo.png";
 import Moto from "../assets/images/Moto.svg";
-// import "../../public/assets/css/Navbar.css";
-// import "../assets/css/Navbar.css";
-import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
@@ -38,7 +33,6 @@ const Navbar = () => {
               return (
                 <li key={id}>
                   <a href={url}>{text}</a>
-                  {/* <Link to={url}>{text}</Link> */}
                 </li>
               );
             })}

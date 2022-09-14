@@ -1,6 +1,5 @@
 import React from "react";
 import Moto from "../assets/images/Moto.svg";
-import Stats from "./Stats";
 const About = () => {
   return (
     <div className="container" id="about">

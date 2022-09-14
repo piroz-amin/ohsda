@@ -1,18 +1,19 @@
 import React from "react";
-import { FaBold } from "react-icons/fa";
+import globeIcon from "../assets/images/globeIcon.svg";
+import { FaGlobeAsia } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="row slideanim" id="contact">
-      <div className="container bg-grey" style={{ backgroundColor: "#be2126" }}>
+      <div className="container">
         <div class="row">
           <div class="col-sm-4">
-            <span
-              class="glyphicon glyphicon-globe logo slideanim"
-              style={{ color: "white" }}
-            ></span>
+            <img
+              src={globeIcon}
+              style={{ width: "200px", paddingBottom: "40px" }}
+            />
           </div>
-          <div class="col-sm-8">
-            <h3>
+          <div class="col-sm-7">
+            <p>
               <strong>Main Office </strong>
               <br />
               <br />
@@ -27,7 +28,7 @@ const Contact = () => {
               +93 (0) 70 229 2174
               <br />
               <br />
-            </h3>
+            </p>
           </div>
         </div>
       </div>
