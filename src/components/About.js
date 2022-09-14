@@ -9,13 +9,11 @@ const About = () => {
             <strong>OHSDA</strong>
           </p>
         </div>
-        <div className="col-md-4 ">
-          <img src={Moto} />
-        </div>
-        <div className="col-md-8 info">
+        
+        <div className="info">
           <p>
-            <strong>OHSDA</strong> - Organization of Humanitarian Services for
-            Development of Afghanistan is a non-government, non-profit,
+            OHSDA (Organization of Humanitarian Services for
+            Development of Afghanistan) is a non-government, non-profit,
             humanitarian organization operating in Afghanistan to empower the
             people in need. OHSDA provides health and social Services, and
             initiatively works to empower the most vulnerable people of the

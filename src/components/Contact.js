@@ -3,8 +3,13 @@ import globeIcon from "../assets/images/globeIcon.svg";
 import { FaGlobeAsia } from "react-icons/fa";
 const Contact = () => {
   return (
+<<<<<<< HEAD
     <div className="row slideanim" id="contact">
       <div className="container">
+=======
+    <div className="row slideanim mt-5" id="contact">
+      <div className="container bg-grey p-5" style={{ backgroundColor: "#be2126" }}>
+>>>>>>> 417e224249970500cc3048448c37b0baaec40232
         <div class="row">
           <div class="col-sm-4">
             <img

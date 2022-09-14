@@ -1,9 +1,17 @@
 import React from "react";
+<<<<<<< HEAD
 import { FaSuperpowers, FaUsers, FaWarehouse } from "react-icons/fa";
+=======
+import {
+  FaSuperpowers,
+  FaUsers,
+  FaWarehouse,
+} from "react-icons/fa";
+>>>>>>> 417e224249970500cc3048448c37b0baaec40232
 
 const Stats = () => {
   return (
-    <div className="row slideanim">
+    <div className="row slideanim container m-auto my-5">
       <div className="container bg-grey" style={{ backgroundColor: "#be2126" }}>
         <div class="row  " id="stats">
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -16,8 +24,13 @@ const Stats = () => {
               </h1>
             </div>
           </div>
+<<<<<<< HEAD
           <div class="col-sm-12 col-md-6 col-lg-4">
             <h1>
+=======
+          <div class="col-sm-4">
+            <h1 className=""> 
+>>>>>>> 417e224249970500cc3048448c37b0baaec40232
               <FaUsers id="statsIcon" />
               <span style={{ padding: "5px" }}>
                 <strong>20+ Humanitarian Experts</strong>

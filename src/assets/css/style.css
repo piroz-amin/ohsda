@@ -38,8 +38,8 @@ a:visited {
 }
 .container .row{
   margin: auto;
-  max-width: 65vw;
-margin-top: 45px;
+  max-width: 90vw;
+  margin-top: 45px;
 }
 /* x. Navbar Style */
 .nav-header {
@@ -328,11 +328,15 @@ margin-top: 10px;
   }
 }
 
+.title{
+  margin:0px 0px 20px 0px;
+}
  .title p{
-  font-size: 24px;
+  font-size: 28px;
   color: gray;
   border-bottom: 4px solid #be2126;
-  padding: 10px;
+  padding: 10px 0px;
+  font-weight: 600;
 }
 
 #Servicecard{
@@ -342,8 +346,12 @@ margin-top: 10px;
 }
 
 .card{
-  margin: 10px;
+  /* margin: 10px; */
   padding: 10px;
+<<<<<<< HEAD
+=======
+  /* width: 300px; */
+>>>>>>> 417e224249970500cc3048448c37b0baaec40232
 }
 
   .info {

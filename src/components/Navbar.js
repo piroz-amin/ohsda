@@ -27,18 +27,24 @@ const Navbar = () => {
           </button>
         </div>
         <div className="links-container" ref={linksContainerRef}>
-          <ul className="links" ref={linksRef}>
+          <ul className="links gap-2 p-4" ref={linksRef}>
             {links.map((link) => {
               const { id, url, text } = link;
               return (
+<<<<<<< HEAD
                 <li key={id}>
                   <a href={url}>{text}</a>
+=======
+                <li key={id} className="mb-4">
+                  <Link to={url}>{text}</Link>
+                  {/* <Link to={url}>{text}</Link> */}
+>>>>>>> 417e224249970500cc3048448c37b0baaec40232
                 </li>
               );
             })}
           </ul>
         </div>
-        <ul className="social-icons">
+        <ul className="social-icons gap-2">
           {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
             return (
